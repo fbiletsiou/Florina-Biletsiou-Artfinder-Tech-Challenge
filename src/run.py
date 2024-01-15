@@ -5,18 +5,12 @@ from search_engine.file_reader import path_does_exist
 
 def initialize_search_engine(directory_path):
     return 1
-    try:
-        search_engine = SearchEngine(directory_path)
-        return search_engine
-    except Exception as e:
-        print(f"Error initializing search engine: {e}")
-        return None
 
 
 def main():
     # Checking if command line argument is provided
-    if len(sys.argv) < 2:
-        print("Usage: python script.py <directory_path>")
+    if len(sys.argv) != 2:
+        print("Usage: python src\\run.py <directory_path>")
         sys.exit(1)
 
     directory_path = sys.argv[1]
