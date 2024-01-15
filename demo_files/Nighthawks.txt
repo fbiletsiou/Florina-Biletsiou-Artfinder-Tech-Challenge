@@ -1,0 +1,4 @@
+Artist: Edward Hopper
+Year: 1942
+Location: Art Institute of Chicago
+Description: Nighthawks is a quintessential representation of urban isolation, portraying a late-night diner and its solitary patrons.
