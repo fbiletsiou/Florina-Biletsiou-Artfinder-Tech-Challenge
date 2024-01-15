@@ -1,0 +1,4 @@
+Artist: Pablo Picasso
+Year: 1937
+Location: Museo Reina Sofia, Madrid
+Description: Guernica is a powerful anti-war mural depicting the horrors of the bombing of the town during the Spanish Civil War, created by Picasso.

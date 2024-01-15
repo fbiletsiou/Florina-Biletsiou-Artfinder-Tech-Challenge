@@ -1,0 +1,4 @@
+Artist: Grant Wood
+Year: 1930
+Location: Art Institute of Chicago
+Description: American Gothic is an iconic portrayal of rural American life, featuring a farmer and his daughter standing before a Gothic-style farmhouse.

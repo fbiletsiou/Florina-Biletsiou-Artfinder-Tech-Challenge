@@ -1,0 +1,4 @@
+Artist: Vincent van Gogh
+Year: 1889
+Location: Museum of Modern Art, New York
+Description: Starry Night is a masterpiece depicting a swirling night sky over a tranquil village, showcasing van Gogh's unique and expressive style.

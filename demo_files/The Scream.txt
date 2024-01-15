@@ -1,0 +1,4 @@
+Artist: Edvard Munch
+Year: 1893
+Location: National Gallery, Oslo
+Description: The Scream is a symbolist masterpiece conveying existential angst, featuring a figure on a bridge with a turbulent, distorted background.

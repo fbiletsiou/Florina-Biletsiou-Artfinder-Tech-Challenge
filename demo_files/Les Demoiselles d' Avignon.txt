@@ -1,0 +1,4 @@
+Artist: Pablo Picasso
+Year: 1907
+Location: Museum of Modern Art, New York
+Description: Les Demoiselles d'Avignon is a groundbreaking work in modern art, depicting five nude women with African and Iberian influences.
