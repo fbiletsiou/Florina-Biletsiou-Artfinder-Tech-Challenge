@@ -16,7 +16,6 @@ def insert_into_trie(root, word, document):
     node.documents.add(document)
 
 
-
 def build_trie(file_data: list):
     root = TrieNode()
 
