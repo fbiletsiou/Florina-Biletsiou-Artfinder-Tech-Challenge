@@ -1,0 +1,4 @@
+Artist: Auguste Rodin
+Year: 1881
+Location: Various Museums
+Description: The Thinker is a monumental bronze sculpture depicting a contemplative man, symbolizing the intellectual act of creation.

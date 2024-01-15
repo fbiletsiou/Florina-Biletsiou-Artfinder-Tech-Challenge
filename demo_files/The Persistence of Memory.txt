@@ -1,0 +1,4 @@
+Artist: Salvador Dalí
+Year: 1931
+Location: Museum of Modern Art, New York
+Description: The Persistence of Memory showcases melting clocks in a surreal landscape, illustrating Dalí's exploration of the fluidity of time.

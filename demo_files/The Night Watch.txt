@@ -1,0 +1,4 @@
+Artist: Rembrandt
+Year: 1642
+Location: Rijksmuseum, Amsterdam
+Description: The Night Watch is a dynamic group portrait showcasing Rembrandt's masterful use of light and shadow to highlight the militia members.

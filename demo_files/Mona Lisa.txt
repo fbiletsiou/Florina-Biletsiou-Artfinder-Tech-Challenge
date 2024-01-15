@@ -1,0 +1,4 @@
+Artist: Leonardo da Vinci
+Year: 1503-1506
+Location: Louvre Museum, Paris
+Description: The Mona Lisa is an iconic portrait known for the subject's enigmatic smile, painted by the Renaissance genius Leonardo da Vinci.

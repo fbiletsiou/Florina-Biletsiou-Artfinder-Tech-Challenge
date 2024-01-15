@@ -1,0 +1,4 @@
+Artist: Jan van Eyck
+Year: 1434
+Location: National Gallery, London
+Description: The Arnolfini Portrait is a meticulously detailed and symbolic representation of a wealthy couple in a domestic setting.

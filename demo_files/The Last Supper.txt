@@ -1,0 +1,4 @@
+Artist: Leonardo da Vinci
+Year: 1495-1498
+Location: Convent of Santa Maria delle Grazie, Milan
+Description: The Last Supper is a renowned depiction of the moment Jesus announces the betrayal, displaying da Vinci's mastery of composition and perspective.
