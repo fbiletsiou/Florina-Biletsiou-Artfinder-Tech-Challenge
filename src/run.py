@@ -1,7 +1,7 @@
 import sys
 
-from search_engine.engine import Engine
-from search_engine.file_reader import path_does_exist, get_directory_contents
+from src.search_engine.engine import Engine
+from src.search_engine.file_reader import path_does_exist, get_directory_contents
 from src.search_engine.trie import build_trie
 
 
