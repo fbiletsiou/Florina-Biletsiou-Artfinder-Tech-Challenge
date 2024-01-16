@@ -3,3 +3,6 @@ tests/.pytest_cache
 __pycache__/
 **/__pycache__/
 /.pytest_cache/
+src/__pycache__/
+src/search_engine/__pycache__/
+tests/__pycache__/
