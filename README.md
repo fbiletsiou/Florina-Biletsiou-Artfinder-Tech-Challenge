@@ -178,7 +178,7 @@ pytest
 You can also specify a particular test file or directory:
 
 ```bash
-pytest tests/test_search_engine.py
+pytest tests/test_engine.py
 ````
 
 To run pytest with coverage:
