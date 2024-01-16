@@ -4,8 +4,18 @@
 ## Description
 
 This is a simple command line driven text search engine implemented in Python. The program reads all text files in a specified directory, builds an in-memory representation of the files and their contents, and provides an interactive command prompt for text searches.
+## Installation
+
+### Using pip and requirements.txt
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Usage
+
+To instal the requirements:
+ pip install -r requirements.txt 
 
 ```bash
 python <filename> <pathToDirectoryContainingTextFiles>
@@ -160,12 +170,28 @@ By leveraging the Trie data structure, the search engine achieves a balance betw
 - Unit tests and integration tests can be added and executed.
 
 ## How to Run Tests
-
-To run tests, use the following command:
+Run all the tests use the following command:
 
 ```bash
-python test_search_engine.py
+pytest
+````
+You can also specify a particular test file or directory:
+
+```bash
+pytest tests/test_search_engine.py
+````
+
+To run pytest with coverage:
+```bash
+pytest --cov=src tests/
+````
+If you want a more detailed HTML coverage report:
+
+```bash
+pytest --cov=src --cov-report=html tests/
 ```
+This will generate an HTML report in the `htmlcov/` directory. <br>
+Open the `index.html` file in a web browser to view the detailed coverage report.
 
 ## Author
 
