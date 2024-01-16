@@ -26,6 +26,7 @@ def main():
     # Initializing the search engine with Trie root and document contents
     engine = Engine(trie_root, document_contents=file_data)
     print(f"search-conf> Search engine initialized for files in {directory_path}")
+    print(f"search-conf> {len(file_data)} files read in directory {directory_path}")
 
     while True:
         # Accepting user input for search query
@@ -51,7 +52,9 @@ def display_results(results: list):
     - None
     """
     for result in results:
-        percentage = int(result[1]) if result[1].is_integer() else result[1]
+        percentage = round(result[1], 2)
+        if percentage == int(percentage):
+            percentage = int(percentage)
         print(f"{result[0]} : {percentage}%")
 
 
