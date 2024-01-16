@@ -1,6 +1,7 @@
 import sys
-from search_engine.search import search_and_rank
-from search_engine.file_reader import path_does_exist, get_directory_contents
+
+from src.search_engine.engine import Engine
+from src.search_engine.file_reader import path_does_exist, get_directory_contents
 from src.search_engine.trie import build_trie
 
 
@@ -17,28 +18,44 @@ def main():
         print(f"search-conf> The directory path '{directory_path}' doesn't seem to exist or is not a directory.")
         directory_path = input("search-conf> Please provide a valid directory path: ")
 
-    files = get_directory_contents(directory_path)
-    # Build Trie based on file data
-    trie_root = build_trie(files)
+    # Reading file data from the specified directory
+    file_data = get_directory_contents(directory_path)
+    # Building Trie from the file data
+    trie_root = build_trie(file_data)
 
-    if trie_root is not None:
-        print(f"search-conf> Search engine initialized for files in {directory_path}")
+    # Initializing the search engine with Trie root and document contents
+    engine = Engine(trie_root, document_contents=file_data)
+    print(f"search-conf> Search engine initialized for files in {directory_path}")
+    print(f"search-conf> {len(file_data)} files read in directory {directory_path}")
 
-        while True:
-            query = input("search> ")
+    while True:
+        # Accepting user input for search query
+        query = input("search> ")
 
-            if query.lower() == ':quit':
-                print("search> Exiting the search engine.")
-                break
+        # Exiting the loop if the user enters ':quit'
+        if query.lower() == ':quit':
+            break
 
-            results = search_and_rank(query=query, trie_root=trie_root, file_contents=files)
+        # Performing the search and displaying results
+        results = engine.search(query=query)
+        display_results(results) if results else print("search> No matches found")
 
-            # Display search results
-            if results:
-                for filename, score in results:
-                    print(f"search> {filename} : {score}%")
-            else:
-                print("search> No matches found")
+
+def display_results(results: list):
+    """
+    Display search results with file names and corresponding rank scores.
+
+    Parameters:
+    - results (list): List of tuples containing file names and their rank scores.
+
+    Returns:
+    - None
+    """
+    for result in results:
+        percentage = round(result[1], 2)
+        if percentage == int(percentage):
+            percentage = int(percentage)
+        print(f"{result[0]} : {percentage}%")
 
 
 if __name__ == "__main__":
