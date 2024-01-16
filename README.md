@@ -169,5 +169,5 @@ python test_search_engine.py
 
 ## Author
 
-[Florina Biletsiou](https://florinabiletsiou.com/)  
+[Florina Biletsiou](https://florinabiletsiou.com/) - [biletsiouflorina@gmail.com](mailto:biletsiouflorina@gmail.com) <br>
 Connect with me on [LinkedIn](https://www.linkedin.com/in/florina-biletsiou/)
